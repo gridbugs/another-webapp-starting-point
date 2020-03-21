@@ -6,7 +6,7 @@
     "build:server": "webpack --config webpack.config.server.js --mode production",
     "build:client": "webpack --config webpack.config.client.js --mode production",
     "watch:client": "webpack --config webpack.config.client.js --mode production --watch",
-    "build": "npm run build:client && npm run build:client",
+    "build": "npm run build:client && npm run build:server",
     "start": "node ./dist/app.js"
   },
   "author": "Stephen Sherratt",
